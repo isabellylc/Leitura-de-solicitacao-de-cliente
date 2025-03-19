@@ -29,32 +29,32 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
-            BtnEstoquefacil = new Label();
+            BtnAdicionarProduto = new Label();
             BtnNomedoProduto = new Label();
             BtnCodigodoProduto = new Label();
             BtnQuantidadeemEstoque = new Label();
             BtnPrecodeVenda = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
+            TxtInserirPreçodoProduto = new TextBox();
+            TxtInserirNumerodoEstoqueDisponiveldoProduto = new TextBox();
+            TxtInserirCodigooProduto = new TextBox();
+            TxtInserirNomedoProduto = new TextBox();
             BtnDescrecaodoProduto = new Label();
             BtnCategoria = new Label();
-            textBox5 = new TextBox();
+            TxtDescrevaProduto = new TextBox();
             BtnLimpar = new Button();
             BtnSalvar = new Button();
-            textBox6 = new TextBox();
+            TxtInsiraaCategoriadoProduto = new TextBox();
             SuspendLayout();
             // 
-            // BtnEstoquefacil
+            // BtnAdicionarProduto
             // 
-            BtnEstoquefacil.AutoSize = true;
-            BtnEstoquefacil.Font = new Font("Swis721 Cn BT", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            BtnEstoquefacil.Location = new Point(278, 0);
-            BtnEstoquefacil.Name = "BtnEstoquefacil";
-            BtnEstoquefacil.Size = new Size(145, 32);
-            BtnEstoquefacil.TabIndex = 0;
-            BtnEstoquefacil.Text = "Estoque fácil";
+            BtnAdicionarProduto.AutoSize = true;
+            BtnAdicionarProduto.Font = new Font("Swis721 Cn BT", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            BtnAdicionarProduto.Location = new Point(276, 9);
+            BtnAdicionarProduto.Name = "BtnAdicionarProduto";
+            BtnAdicionarProduto.Size = new Size(198, 32);
+            BtnAdicionarProduto.TabIndex = 0;
+            BtnAdicionarProduto.Text = "Adicionar Produto";
             // 
             // BtnNomedoProduto
             // 
@@ -97,37 +97,37 @@
             BtnPrecodeVenda.TabIndex = 4;
             BtnPrecodeVenda.Text = "Preço de Venda:";
             // 
-            // textBox1
+            // TxtInserirPreçodoProduto
             // 
-            textBox1.Location = new Point(66, 207);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Inserir preço do produto:";
-            textBox1.Size = new Size(593, 23);
-            textBox1.TabIndex = 5;
+            TxtInserirPreçodoProduto.Location = new Point(66, 207);
+            TxtInserirPreçodoProduto.Name = "TxtInserirPreçodoProduto";
+            TxtInserirPreçodoProduto.PlaceholderText = "Inserir preço do produto:";
+            TxtInserirPreçodoProduto.Size = new Size(593, 23);
+            TxtInserirPreçodoProduto.TabIndex = 5;
             // 
-            // textBox2
+            // TxtInserirNumerodoEstoqueDisponiveldoProduto
             // 
-            textBox2.Location = new Point(66, 156);
-            textBox2.Name = "textBox2";
-            textBox2.PlaceholderText = "Inserir numero do estoque disponivel do produto:";
-            textBox2.Size = new Size(593, 23);
-            textBox2.TabIndex = 6;
+            TxtInserirNumerodoEstoqueDisponiveldoProduto.Location = new Point(66, 156);
+            TxtInserirNumerodoEstoqueDisponiveldoProduto.Name = "TxtInserirNumerodoEstoqueDisponiveldoProduto";
+            TxtInserirNumerodoEstoqueDisponiveldoProduto.PlaceholderText = "Inserir numero do estoque disponivel do produto:";
+            TxtInserirNumerodoEstoqueDisponiveldoProduto.Size = new Size(593, 23);
+            TxtInserirNumerodoEstoqueDisponiveldoProduto.TabIndex = 6;
             // 
-            // textBox3
+            // TxtInserirCodigooProduto
             // 
-            textBox3.Location = new Point(66, 105);
-            textBox3.Name = "textBox3";
-            textBox3.PlaceholderText = "Inserir código do produto:";
-            textBox3.Size = new Size(593, 23);
-            textBox3.TabIndex = 7;
+            TxtInserirCodigooProduto.Location = new Point(66, 105);
+            TxtInserirCodigooProduto.Name = "TxtInserirCodigooProduto";
+            TxtInserirCodigooProduto.PlaceholderText = "Inserir código do produto:";
+            TxtInserirCodigooProduto.Size = new Size(593, 23);
+            TxtInserirCodigooProduto.TabIndex = 7;
             // 
-            // textBox4
+            // TxtInserirNomedoProduto
             // 
-            textBox4.Location = new Point(66, 54);
-            textBox4.Name = "textBox4";
-            textBox4.PlaceholderText = "Inserir nome do produto:";
-            textBox4.Size = new Size(593, 23);
-            textBox4.TabIndex = 8;
+            TxtInserirNomedoProduto.Location = new Point(66, 54);
+            TxtInserirNomedoProduto.Name = "TxtInserirNomedoProduto";
+            TxtInserirNomedoProduto.PlaceholderText = "Inserir nome do produto:";
+            TxtInserirNomedoProduto.Size = new Size(593, 23);
+            TxtInserirNomedoProduto.TabIndex = 8;
             // 
             // BtnDescrecaodoProduto
             // 
@@ -150,13 +150,13 @@
             BtnCategoria.Text = "Categoria:";
             BtnCategoria.Click += label7_Click;
             // 
-            // textBox5
+            // TxtDescrevaProduto
             // 
-            textBox5.Location = new Point(66, 258);
-            textBox5.Name = "textBox5";
-            textBox5.PlaceholderText = "Descreva produto:";
-            textBox5.Size = new Size(593, 23);
-            textBox5.TabIndex = 11;
+            TxtDescrevaProduto.Location = new Point(66, 258);
+            TxtDescrevaProduto.Name = "TxtDescrevaProduto";
+            TxtDescrevaProduto.PlaceholderText = "Descreva produto:";
+            TxtDescrevaProduto.Size = new Size(593, 23);
+            TxtDescrevaProduto.TabIndex = 11;
             // 
             // BtnLimpar
             // 
@@ -178,13 +178,13 @@
             BtnSalvar.Text = "Salvar";
             BtnSalvar.UseVisualStyleBackColor = false;
             // 
-            // textBox6
+            // TxtInsiraaCategoriadoProduto
             // 
-            textBox6.Location = new Point(66, 309);
-            textBox6.Name = "textBox6";
-            textBox6.PlaceholderText = "Insira a categoria do produto:";
-            textBox6.Size = new Size(593, 23);
-            textBox6.TabIndex = 14;
+            TxtInsiraaCategoriadoProduto.Location = new Point(66, 309);
+            TxtInsiraaCategoriadoProduto.Name = "TxtInsiraaCategoriadoProduto";
+            TxtInsiraaCategoriadoProduto.PlaceholderText = "Insira a categoria do produto:";
+            TxtInsiraaCategoriadoProduto.Size = new Size(593, 23);
+            TxtInsiraaCategoriadoProduto.TabIndex = 14;
             // 
             // Form2
             // 
@@ -192,21 +192,21 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DarkSeaGreen;
             ClientSize = new Size(742, 387);
-            Controls.Add(textBox6);
+            Controls.Add(TxtInsiraaCategoriadoProduto);
             Controls.Add(BtnSalvar);
             Controls.Add(BtnLimpar);
-            Controls.Add(textBox5);
+            Controls.Add(TxtDescrevaProduto);
             Controls.Add(BtnCategoria);
             Controls.Add(BtnDescrecaodoProduto);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(TxtInserirNomedoProduto);
+            Controls.Add(TxtInserirCodigooProduto);
+            Controls.Add(TxtInserirNumerodoEstoqueDisponiveldoProduto);
+            Controls.Add(TxtInserirPreçodoProduto);
             Controls.Add(BtnPrecodeVenda);
             Controls.Add(BtnQuantidadeemEstoque);
             Controls.Add(BtnCodigodoProduto);
             Controls.Add(BtnNomedoProduto);
-            Controls.Add(BtnEstoquefacil);
+            Controls.Add(BtnAdicionarProduto);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form2";
             Text = "Form2";
@@ -216,20 +216,20 @@
 
         #endregion
 
-        private Label BtnEstoquefacil;
+        private Label BtnAdicionarProduto;
         private Label BtnNomedoProduto;
         private Label BtnCodigodoProduto;
         private Label BtnQuantidadeemEstoque;
         private Label BtnPrecodeVenda;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox TxtInserirPreçodoProduto;
+        private TextBox TxtInserirNumerodoEstoqueDisponiveldoProduto;
+        private TextBox TxtInserirCodigooProduto;
+        private TextBox TxtInserirNomedoProduto;
         private Label BtnDescrecaodoProduto;
         private Label BtnCategoria;
-        private TextBox textBox5;
+        private TextBox TxtDescrevaProduto;
         private Button BtnLimpar;
         private Button BtnSalvar;
-        private TextBox textBox6;
+        private TextBox TxtInsiraaCategoriadoProduto;
     }
 }
